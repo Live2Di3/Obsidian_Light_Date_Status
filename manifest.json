@@ -1,9 +1,9 @@
 {
-  "id": "Date_Update",
-  "name": "Date_Update",
+  "id": "Light_Date_Status",
+  "name": "Light_Date_Status",
   "version": "1.0.0",
   "minAppVersion": "1.5.0",
-  "description": "Light Date Status",
+  "description": "Light_Date_Status",
   "author": "Live2Di3",
   "isDesktopOnly": false
 }
