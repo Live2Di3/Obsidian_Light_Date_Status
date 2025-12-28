@@ -1,0 +1,9 @@
+{
+  "id": "Date_Update",
+  "name": "Date_Update",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Light Date Status",
+  "author": "Live2Di3",
+  "isDesktopOnly": false
+}
