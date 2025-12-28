@@ -1,39 +1,16 @@
-# Light Date Status - Obsidian Plugin
+Light Date Status
+Plugin ultra-léger pour Obsidian pour afficher dates de création et modifiaction dans la barre de statut Obsidian.
 
-[Français](#français) | [English](#english)
+Affichage heure 24H Francais.
 
----
+Informations :
+- Affichage Discret : Les dates apparaissent en bas à droite de l'interface. Voir image du dépot pour screenshot
+- Respect de vos données : Le plugin ne modifie pas le texte de vos notes (pas de YAML, pas de texte caché).
+- Format Local : Affichage au format français (24h) : `JJ/MM/AAAA HH:mm`.
+- Zéro Latence : Optimisé pour ne pas ralentir votre coffre (Vault).
 
-## Français
-
-**Light Date Status** est un plugin ultra-léger pour Obsidian qui affiche les dates de création et de dernière modification de vos notes directement dans la barre de statut, sans jamais polluer ou modifier le contenu de vos fichiers `.md`.
-
-### ✨ Caractéristiques
-- **Affichage Discret** : Les dates apparaissent en bas à droite de l'interface.
-- **Respect de vos données** : Le plugin ne modifie pas le texte de vos notes (pas de YAML, pas de texte caché).
-- **Format Local** : Affichage au format français (24h) : `JJ/MM/AAAA HH:mm`.
-- **Zéro Latence** : Optimisé pour ne pas ralentir votre coffre (Vault).
-
-### 🚀 Installation
-1. Téléchargez `main.js` et `manifest.json` depuis la dernière [Release](https://github.com/VOTRE_PSEUDO/obsidian-light-date-status/releases).
-2. Créez un dossier `light-date-status` dans `.obsidian/plugins/`.
+Installation
+1. Téléchargez "main.js" et "manifest.json" depuis https://github.com/Live2Di3/Obsidian_Light_Date_Status
+2. Créez un dossier "Light_Date_Status" dans ".obsidian/plugins/
 3. Copiez les deux fichiers à l'intérieur.
 4. Activez le plugin dans les réglages d'Obsidian.
-
----
-
-## English
-
-**Light Date Status** is an ultra-lightweight Obsidian plugin that displays creation and modification dates in the status bar, keeping your `.md` files 100% clean.
-
-### ✨ Features
-- **Minimalist UI**: Dates are displayed at the bottom right of the status bar.
-- **Privacy & Cleanliness**: Does not modify your note content or properties.
-- **24h Format**: Displays dates in a clear `DD/MM/YYYY HH:mm` format.
-- **Performant**: Read-only access to file system metadata.
-
-### 🚀 Installation
-1. Download `main.js` and `manifest.json` from the latest [Release](https://github.com/VOTRE_PSEUDO/obsidian-light-date-status/releases).
-2. Create a folder named `light-date-status` in `.obsidian/plugins/`.
-3. Paste the files inside.
-4. Enable the plugin in Obsidian settings.
