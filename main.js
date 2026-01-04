@@ -23,7 +23,7 @@ module.exports = class LightDateStatus extends Plugin {
                 const created = format(new Date(file.stat.ctime));
                 const modified = format(new Date(file.stat.mtime));
 
-                statusBarItemEl.setText(`📅 ${created}  •  📝 ${modified}`);
+                statusBarItemEl.setText(`Date de création : 📅 ${created}  |  Date de modification : 📝 ${modified}`);
             } else {
                 statusBarItemEl.setText("");
             }
